@@ -7,7 +7,7 @@ const statusRecording = {
   PAUSED: "paused",
 };
 const VideoRecorder: React.FC = () => {
-  const [recording, setRecording] = useState<boolean>(false);
+  // const [recording, setRecording] = useState<boolean>(false);
   const recordingLength = useRef<number>(0);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [permissionCamera, setPermissionCamera] = useState<boolean>(false);
